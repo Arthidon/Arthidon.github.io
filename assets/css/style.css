@@ -1,0 +1,133 @@
+* {
+    margin: o;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+p {
+    color: #777777
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5
+}
+a{
+    color: #4aaaa5;
+    text-decoration: none;
+}
+body {
+    background-image: url(../images/pattern.png);
+}
+header {
+    float: left;
+    background: #ffffff;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    border: #cccccc 2px;
+    margin-bottom: 50px;
+    
+}
+
+#name {
+    box-sizing: border-box;
+    background-color:#4aaaa5;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bolder;
+    height: 100px;
+    padding: 30px;
+    float: left;
+    position: relative;
+    left: 15%;
+    
+}
+
+#menuwrapper {
+    position: absolute;
+    box-sizing: border-box;
+    top: 0px;
+    left: 60%;
+    height: 100px; 
+}
+
+
+#menu {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+.listitem {
+    float: left;
+    color: #4aaaa5;
+    font-size: 25px;
+    position: relative;
+    padding: 35px 15px;
+
+}
+.listitem:after {
+    content: '';
+    height: 20%;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #ddd;
+   
+   }
+#container {
+    min-height: 100%;
+}  
+#content {
+    box-sizing: border-box;
+    overflow: auto;
+    padding-bottom: 75px;
+    clear: both;
+    display: block;
+    background-color: #ffffff;
+    border: 2px #dddddd;
+    width: 960px;
+    height: 600px;
+    margin: 150px auto;
+}
+#selfie {
+    margin: 5px 15px 15px 15px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#bioh1 {
+    padding: 15px 15px 5px 15px;
+}
+
+#aboutme {
+    border-top: 1px solid #4aaaa5;
+    width: 90%;
+}
+
+#footertext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    color: #ffffff
+}
+
+#footer {
+    position: relative;
+    height: 75px;
+    margin-top: -75px;
+    background-color: #666666;
+    clear: both;
+}
